@@ -30,11 +30,18 @@ body{
 }
 .options .divider{
     width: 0.5%;
-    height: 50%;
+   
+   height: 50%;
     /* position: absolute; */
     background:#EAE4C9 ;
     /* z-index: 99; */
 }
 .options a{
     color: #EAE4C9;
+}
+
+@media (max-width: 1280px) {
+    .options li{
+        margin:10px
+    }
 }
